@@ -2,11 +2,10 @@
 
 **Titles must have either of these:**
 
-```
-[ProductName][Issue]
 
-[ProductName][Suggestion]
-```
+- [ProductName][Issue]
+- [ProductName][Suggestion]
+
 **For example:**
 ```
 [GatheringLegion][Suggestion] Profile Support
