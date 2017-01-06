@@ -1,6 +1,7 @@
 # Read me before submitting Issues or Suggestions!
 
 Titles must have either of these:
+
 [ProductName][Issue]
 
 [ProductName][Suggestion]
