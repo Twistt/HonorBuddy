@@ -2,6 +2,7 @@
 
 Titles must have either of these:
 [ProductName][Issue]
+
 [ProductName][Suggestion]
 
 For example:
