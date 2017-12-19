@@ -1,0 +1,2 @@
+﻿--- Ver 1.0.4.6 ---
+Reconfigured project to fix the anomylous bug.

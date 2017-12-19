@@ -1,0 +1,17 @@
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\bin\Debug\TwistedCombat.dll
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\bin\Debug\TwistedCombat.pdb
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\bin\Debug\GreyMagic.dll
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\bin\Debug\Honorbuddy.exe
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\bin\Debug\Newtonsoft.Json.dll
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\bin\Debug\RemoteASM.dll
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\bin\Debug\RemoteASMNative.dll
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\bin\Debug\System.Data.SQLite.dll
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\bin\Debug\Tripper.RecastManaged.dll
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\bin\Debug\Tripper.Tools.dll
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\bin\Debug\System.Data.SQLite.xml
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\obj\Debug\TwistedCombat.dll
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\obj\Debug\TwistedCombat.pdb
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\obj\Debug\TwistedCombatRoutines.LoadOrSave.resources
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\obj\Debug\TwistedCombat.csproj.GenerateResource.Cache
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\obj\Debug\TwistedCombatRoutines.TwistedCRGui.resources
+C:\Development\HonorBuddy\SlimmedDownCRBuilder\CRBuilder\TwistedCombat\obj\Debug\TwistedCombatRoutines.ECR_GUI_v2.resources

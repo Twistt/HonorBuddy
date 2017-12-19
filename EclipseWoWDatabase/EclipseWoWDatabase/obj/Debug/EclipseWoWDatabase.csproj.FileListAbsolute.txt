@@ -1,0 +1,35 @@
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\EclipseWoWDatabase.exe.config
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\EclipseWoWDatabase.exe
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\EclipseWoWDatabase.pdb
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\GreyMagic.dll
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\Honorbuddy.exe
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\System.Data.SQLite.dll
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\Tripper.RecastManaged.dll
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\Tripper.Tools.dll
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\RemoteASM.dll
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\RemoteASMNative.dll
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\Newtonsoft.Json.dll
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\Honorbuddy.xml
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\System.Data.SQLite.xml
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\obj\Debug\Eclipse.WoWDatabase.EclipseDBManager.resources
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\obj\Debug\Eclipse.WoWDatabase.Properties.Resources.resources
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\obj\Debug\EclipseWoWDatabase.csproj.GenerateResource.Cache
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\obj\Debug\EclipseWoWDatabase.exe
+C:\Development\HonorBuddy\EclipseWoWDatabase\EclipseWoWDatabase\obj\Debug\EclipseWoWDatabase.pdb
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\EclipseWoWDatabase.exe.config
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\obj\Debug\EclipseWoWDatabase.exe
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\obj\Debug\EclipseWoWDatabase.pdb
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\EclipseWoWDatabase.exe
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\EclipseWoWDatabase.pdb
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\obj\Debug\Eclipse.WoWDatabase.EclipseDBManager.resources
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\obj\Debug\Eclipse.WoWDatabase.Properties.Resources.resources
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\obj\Debug\EclipseWoWDatabase.csproj.GenerateResource.Cache
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\Honorbuddy.exe
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\System.Data.SQLite.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\MahApps.Metro.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\GreyMagic.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Plugins\EclipseWoWDatabase\EclipseWoWDatabase\bin\Debug\Udis86Net.dll

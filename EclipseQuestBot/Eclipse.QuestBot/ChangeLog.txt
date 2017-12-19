@@ -1,0 +1,13 @@
+﻿-- Ver 0.1.1 -- 
+added a wait in the looting
+added an update for existing quest orders
+removed that extra logging
+
+
+-- Ver 0.1.0 --
+Initial Release
+
+
+-- Bug/Issue -- 
+Core pulse only fires on target change.
+  -- attempted to fix by changing to a behavior.

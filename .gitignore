@@ -1,0 +1,13 @@
+*.suo
+*.zip
+/Eclipse.ShadowBot/Eclipse.ShadowBot/bin/Debug
+*.cache
+*.exe
+*.pdb
+*.dll
+/EclipseShadow/Eclipse.ShadowBot/Eclipse.ShadowBot/bin
+/EclipseShadow/Eclipse.ShadowBot/Eclipse.ShadowBot/obj
+/Eclipse.ShadowBot/packages
+/TwistedCombat/TwistedCombat3/bin
+/TwistedCombat/TwistedCombat3/obj
+/GatheringLegion/packages

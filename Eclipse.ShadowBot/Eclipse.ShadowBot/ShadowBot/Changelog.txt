@@ -1,0 +1,162 @@
+Eclipse - ShadowBot
+
+ToDo List:
+	Add hearth command
+	If leader is dead, follow secondary target in group - needs to be tested
+	If someone in party is dead and we are not in combat, rez them
+	Should disconnect from leader on stop of honorbuddy.
+	Mounting doesnt work anymore.
+	Closing the leader, crashes all followers
+	When following a leader - pick a point to teh side of them rather than always stacking on the exact point.
+	If the leader is lost (out of memory)- query for its position with the connection.
+
+	Add the rest of the armor classes - for choosing quest rewards.
+	Fixed -- Bot prioritizing combat over following leader.
+	Sometimes it errors getting current location.
+	Fixed -- Tries to move before a mount is fully summoned.
+	Fixed -- When quest is outside follow distance it yo-yos
+
+
+
+
+
+	 Testing Notes:
+[12:39:52 AM] Hari: The shadowbot does not accept LFG Signup
+Done --- [12:39:52 AM] Hari: also, it doesnt follow mount up assigned in Settings & Tools, it uses the first mount on the list.
+[12:41:19 AM] Hari: It also doesnt use Flight paths as the leader used.
+Done ---- [12:46:25 AM] Hari: when i changed between zones like Elwyn Forest and Duskwood then the bots stopped due to "Phased zone change" The problem is that i did not see my other 2 chars for 1 sec but then they popped back and the bots just stands there untill i manually "Start Following" again
+[12:47:17 AM] Hari: when encountering combat on the leader the followers does not dismount to help. they just stand there mounted.
+[12:50:47 AM] Hari: the followers are always trying to pick up a new quest if available but that is a HUGE problem if the leader isnt picking up any quests and wants to ignore them. it should be so if leader picked up or targets the quest giver THEN the followers should go pick up that quest.
+[12:52:28 AM] Hari: The Followers does not learn New Flight Points if available when standing Next to the NPC
+Done -- [12:54:57 AM] Hari: there should also be a "Dismount" call in the command section
+[1:48:03 PM] Hari: when healbot with assist leader then it will stay mounted you need to make it auto dismount when leader dismounts
+Done ---- [1:48:17 PM] Hari: also it tries to mount ALOT when leader mounts
+Done ---- [1:48:24 PM] Hari: keeps mounting up and spams the bot log
+Changelog
+
+========================HB DEV GEMS====================================
+
+	in a lua event handler use coroutines: http://pastie.org/private/d73pi9uhgeiz9ybzeuofg
+------------------------------Clear the temp cache  ----------------------------
+[3:08:57 PM] Apoc: using(StyxWoW.Memory.TemporaryCacheState(false))
+{
+ ... your code here ...
+}
+------------------------------stop movement ----------------------------
+to stop moving.
+WoWMovement.MoveStop() or CommonCoroutines.StopMoving from a coroutine
+
+------------------------------Quest Items ----------------------------
+Quest Items: http://docs.honorbuddy.com/html/013c9737-e469-ab5f-ca2b-0739ae3ecc8f.htm
+Get Quest Item Count: http://docs.honorbuddy.com/html/69159a3e-c132-e947-01ab-91d1fdca1e7d.htm
+
+------------------------------QuestObjectives ----------------------------
+You have to retrieve the QuestObjective from Quest.GetObjectives(), then retrieve the WoWDescriptorQuest data through PlayerQuest.GetData, and finally check WoWDescriptorQuest.ObjectivesDone[QuestObjective.Index]
+E.G.
+PlayerQuest quest = StyxWoW.Me.QuestLog.GetQuest(...);
+var objective = quest.GetObjectives()[0]; / or whatever to find the correct objective /
+WoWDescriptorQuest dynamicData;
+if (quest.GetData(out dynamicData))
+{
+  uint objectivesCompleted = dynamicData.ObjectivesCompleted[objective.Index];
+}
+
+------------------------------Check for pressed keys ----------------------------
+  [DllImport("user32.dll")]
+  private static extern IntPtr GetForegroundWindow();
+
+  [DllImport("user32.dll")]
+  private static extern short GetAsyncKeyState(Keys vKey);
+
+  public static bool IsKeyDown(Keys key, bool gameWindowFocused = true)
+  {
+   if (gameWindowFocused && GetForegroundWindow() != AttachedProcess.Memory.Process.MainWindowHandle)
+    return false;
+
+   return (GetAsyncKeyState(key) & 0x8000) != 0;
+  }
+[1:27:52 PM] Apoc: If people need to check for "down" keys
+=======================================================================
+
+
+--- Ver 0.2 ---
+Added bot started check so that you dont cause an error by picking a target too soon
+Added dead behavior - should now go find corpse (not tested yet)
+Added Skinning behavior (if your follower skins) - This now works
+Added healing behaviors - must set party roles.
+Added a popup warning to this effect.
+If leader gets too far away will now mount up and follow
+Added data class for settings
+Added Data manipulation items for saving settings
+Created table for settings.
+Added loading of settings but the bot must be started for them to load.
+Added updating of settings or inserting of new settings data.
+
+--- Ver 0.3 ---
+Added UI elements for new functionality.
+Added new bot communication client/server code (not included in release)
+Reorganized UI elements. 
+
+--- Ver 0.4 ---
+Added Skinning Toggleable option
+Added Looting Toggleable option
+Added Follow By Name Toggleable option
+Added Follow By Name Functionality
+Added a layer of abstraction between behaviors and settings (so it's not doing unneccessary things)
+Added save and load settings for Skinning, looting, followbyname and leadername.
+Rearranged UI Elements.
+Deleted status text for Leader Mode (Not yet implemented).
+Added functionality to wait for leader if the bot isnt started with the leader around.
+Bot will now WAIT till the leader is in range and automatically follow them when they get in range again.
+
+--- Ver 1.0 ---
+Added auto mounting
+Added force nav to leader location
+Added Added override commands via the leader console.
+	->Disconnect
+	->MountUp
+	->Ready Check
+	->ToMe
+	->ChangeLeader
+
+--- Ver 1.1 & 1.2 --- 
+Fixed UI/Lua hooks to initiate regardless of whether or not you turn on questing
+Added Config background image (yay branding)
+Moved the mounting command behind the null-leader check.
+Fixed settings loading issue.
+Fixed bug where local player wasnt being set in shared resources.
+Bot will now properly find a vendor 
+Bot will now sell all GREYS. (poor quality items)
+
+--- Ver 1.3 --- 
+In all cases were i was logging target.name i changed it to target.entry.
+Changed product images and removed non Creative Commons content.
+Removed sleep and replaces with coroutine commands for random ui waits.
+
+--- Ver 1.4 --- 
+If leader is lost during regular gameplay the Client will message the leader to get his location and then do a force nav to the leaders location.
+Fixed vendoring items by Removing problematic Vendor CoRoutine.
+Will now use your configured flying or ground mount.
+Will now use a ground mount or flying mount depending on what the leader is doing (i.e. flying). 
+on Healbot mode will now force dismount before trying to heal.
+Added a dismount call in the Server Commands section.
+IF mounted while combat is started sometimes it will not dismount - on combat mounting is now forced (if leader isnt mounted)
+
+--- Ver 1.5 ---
+If bot looses leader fixed the drop in frame work by throttling the get leader call
+Will now prioritize following over combat/healing.
+Added configurable Sell at bag slots.
+Will not sell if you set sell at bag slots to 0
+Increase Mount Summoning WaitTime.
+
+--- Ver 1.6 --- 
+Removed leader logging that would cause a character name to be output to log.
+Removed follower logging that would cause a character name to be output to the log.
+Removed redundant logging that might log sensitive information.
+
+--- Ver 2.0 ---
+Complete Overhauled Client/server relationships
+	Connection is no longer rebuild and torn down for every request
+	Connections states are not persistant.
+	Added additional logging for messages sent between client and server.
+	Fixed serialization issue where sometimes client wasnt understanding messages from server.

@@ -1,0 +1,45 @@
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\SkinbotV2.exe.config
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\obj\Debug\SkinbotV2.Properties.Resources.resources
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\obj\Debug\Eclipse.Bots.SkinBot.EclipseConfigForm.resources
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\obj\Debug\Eclipse.Bots.SkinBot.Views.EclipseDataManager.resources
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\obj\Debug\Eclipse.Bots.SkinBot.Views.MobSelectionList.resources
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\obj\Debug\Eclipse.Bots.SkinBot.Views.TravelForm.resources
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\obj\Debug\SkinbotV2.csproj.GenerateResource.Cache
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\SkinbotV2.exe
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\SkinbotV2.pdb
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\GreyMagic.dll
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\Honorbuddy.exe
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\System.Data.SQLite.dll
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\RemoteASM.dll
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\RemoteASMNative.dll
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\Newtonsoft.Json.dll
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\Tripper.Tools.dll
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\Tripper.RecastManaged.dll
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\bin\Debug\System.Data.SQLite.xml
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\obj\Debug\SkinbotV2.exe
+C:\Development\HonorBuddy\SkinbotV2\SkinbotV2\obj\Debug\SkinbotV2.pdb
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\obj\Debug\SkinbotV2.Properties.Resources.resources
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\obj\Debug\Eclipse.Bots.SkinBot.EclipseConfigForm.resources
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\obj\Debug\Eclipse.Bots.SkinBot.Views.EclipseDataManager.resources
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\obj\Debug\Eclipse.Bots.SkinBot.Views.MobSelectionList.resources
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\obj\Debug\Eclipse.Bots.SkinBot.Views.TravelForm.resources
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\obj\Debug\SkinbotV2.csproj.GenerateResource.Cache
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\SkinbotV2.exe.config
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\SkinbotV2.exe
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\SkinbotV2.pdb
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\GreyMagic.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\Honorbuddy.exe
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\Honorbuddy.Launcher.exe
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\MahApps.Metro.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\RemoteASM.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\RemoteASMNative.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\System.Data.SQLite.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\Udis86Net.dll
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\obj\Debug\SkinbotV2.exe
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\obj\Debug\SkinbotV2.pdb
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\obj\Debug\SkinbotV2.Views.SkinningManagement.resources
+C:\Users\Twist\Downloads\Honorbuddy 3.0.16306.861\Bots\SkinbotV2\SkinbotV2\bin\Debug\Data\EclipseWoWDB.edb

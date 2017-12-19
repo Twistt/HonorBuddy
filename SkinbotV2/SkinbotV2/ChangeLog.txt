@@ -1,0 +1,30 @@
+﻿-- Ver 1.0.0.4 --
+Changed pull range from 20yards to 40yards throughout
+Fixed the add mob in area botton on killlist screen
+Hooked up the "Remove" button on the kill lost.
+Enabled insert of ID in DAL and ORM
+Fixed a bug where adding a mob to the kill-list from the "area list" didnt work if it wasnt already in the database
+Added ignore list.
+
+add a 0.5ms delay on the interact after killing
+it's spamming "Already Tapped" and "No permission to loot that corpse"
+it's not saving "Skinbot Enabled"
+when i click enable, then close it then click bot config, it's unchecked
+
+add ignoring of tagged mobs
+add ignoring of naviagatable mobs
+
+-- Ver 2.02 --
+Added delay after skinning
+Checkboxes on config form now remember thier selections
+Now checks for tagged by me on skinnable mobs
+If something spends too much time as a target without being attacked (ie evade bugged and or non navigatable) will now be blacklisted
+Added a delay before looting
+Added a check on navigation where if the nav is taking too long it will stop trying after 10 seconds.
+Fixed bug where it would try to kill a flying mob that was out of its reach forever
+
+-- Ver 2.05 --
+Fixed wait to use more realistic wait times after skinning or looting.
+Added new screen that allows you to manually add skinnable mobs. 
+added functionality to ban a mob that IS skinnable (such as flying mobs because HB is not so good at handling them)
+Fixed bug where bot would sometimes go into non skinnable functions and thereby not keep skinning mobs.

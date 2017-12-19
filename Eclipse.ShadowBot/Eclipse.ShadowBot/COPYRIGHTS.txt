@@ -1,0 +1,8 @@
+﻿* ./Resources/ShadowBot.jpg
+
+	Creative Common License for modified bg image Taken from: https://www.flickr.com/photos/legends2k/5650800472/in/photolist-9BkQ7m-7skvUb-j8Ab7y-o9AJ7M-h1uXN3-33gRyW-ncEDbj-bzQXQy-bK3KQF-d3Tofu-7K25N-oTnEdv-7PhJ73-7zcJnt-kLnq8-jYv2yi-hLUPTV-E5CCv-haeqiW-jpEe8S-6s3f9B-n8dvhX-9HRkvF-gYNvRt-iiWesu-2pDop6-sxskv-iQbCeH-jztNen-6WUi3U-aBvdLz-ebe5UF-oGateB-edi9EK-nLCze8-p9wJjG-g5SWVv-oKazYX-6NSQmF-pmvEB-3FUhu-ixZgSb-3Uoeex-hojk2K-fkNg1F-gQRFS-iP1vq8-kSoUAQ-dKYL7-qEUBTw
+	Link to the License granted to users of this image: https://creativecommons.org/licenses/by-sa/2.0/
+	The other elements of the Image were created by me (from scratch) in PhotoShop: Adobe Photoshop Version: 12.0 (12.0x20100407 [20100407.r.1103 2010/04/07:14:00:00 cutoff; r branch]) x64
+
+* ./Resources/ShadowBotIcon.jpg
+	The elements of the Image were created by me (from scratch) in PhotoShop: Adobe Photoshop Version: 12.0 (12.0x20100407 [20100407.r.1103 2010/04/07:14:00:00 cutoff; r branch]) x64

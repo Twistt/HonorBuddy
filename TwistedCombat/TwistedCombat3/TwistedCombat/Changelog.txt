@@ -1,0 +1,21 @@
+﻿--- Ver 1.0.4.6 ---
+Reconfigured project to fix the anomylous bug.
+fixed a bug where the Behaviour wasnt saving the target
+fixed a bug where the Behaviour wasnt saving the auratarget
+fixed a bug where the Behaviour wasnt saving the Health operator
+fixed a bug where the Behaviour wasnt saving the isuara flag
+added null checks on group targets like tank and healers
+added null checks in aura targets
+removed the save routine button since it doesnt allow you to edit it anyway.
+
+--- Ver 1.0.6.0 --- 
+Fixed Targeting system for Me vs Mob
+added a TON of logging.
+Added preclude functionality so we dont go through the logic and targeting when we arent going to use it.
+Added time delay in spells being cast so we dont spam the same spell with low GCD over and over (this will be configureable eventually)
+Added auto compilating of routine name by adding spec and class to it.
+Updated routine list on creation of a new one so you can swithc back and forth without reloading the gui.
+Extended orm to allow enum serialization
+Added Use tanks target option
+Removed text based operator drop down and converted to a bound enum.
+Fixed bug that would cause the enum values not to serialize properly when choosing "edit"

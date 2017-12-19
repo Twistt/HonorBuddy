@@ -1,0 +1,22 @@
+﻿-- Ver 0.1 --
+Now collects Mining nodes
+Now collects Herbalism nodes
+Added Chest routine to find and collect chests while your herbing/mining
+Added detection and storage of elite to learning behaviors
+HB3 Removed the ability to check for valid paths - created my own function that does the same.
+Will kill and loot mobs that spawn from herbalism nodes.
+Will now ignore herbs if you dont have herbalism
+Will now ignore Minerals if you dont have mining
+Bot will procatively find and save all chest locations - chest bot?
+Added foxflower detection untested and Added foxflower gathering untested
+Added Zone detection and DataBasing.
+Added configuration setting system. 
+The bot will now ONLY farm in the zones you have selected.
+Fixed broken Elite mob check ( its was causing all chests to be ignored)
+Added Avoid Zone Framework to avoid certain zones.
+The bot now properly saves and loads your avoid area lists and farm in area lists
+
+https://store.buddyauth.com/Product?productId=7431
+Here's the Product ID for the LegionGathering
+
+GatheringLegion Update: The bot will now ONLY farm in the zones you have selected.

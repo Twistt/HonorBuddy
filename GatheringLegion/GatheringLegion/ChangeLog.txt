@@ -1,0 +1,41 @@
+﻿-- Ver 0.1 --
+Now collects Mining nodes
+Now collects Herbalism nodes
+Added Chest routine to find and collect chests while your herbing/mining
+Added detection and storage of elite to learning behaviors
+HB3 Removed the ability to check for valid paths - created my own function that does the same.
+Will kill and loot mobs that spawn from herbalism nodes.
+Will now ignore herbs if you dont have herbalism
+Will now ignore Minerals if you dont have mining
+Bot will procatively find and save all chest locations - chest bot?
+Added foxflower detection untested and Added foxflower gathering untested
+Added Zone detection and DataBasing.
+Added configuration setting system. 
+The bot will now ONLY farm in the zones you have selected.
+Fixed broken Elite mob check ( its was causing all chests to be ignored)
+Added Avoid Zone Framework to avoid certain zones.
+The bot now properly saves and loads your avoid area lists and farm in area lists
+
+https://store.buddyauth.com/Product?productId=7431
+Here's the Product ID for the LegionGathering
+
+GatheringLegion Update: The bot will now avoid zones in the zones you have selected.
+Fixed short path bug that would cause moveto to be called excessively
+Fixed bug that was causing loot target to be null and therefore error
+Fixed dontstoptofight when mounted functionality that was keepign it from fighting
+Added skinning settings to turn off/on skinning
+Expanded location hotspot to 200yards so it doesnt look like your doing a jig.
+Increased the avoid elite range to 20yards
+Added can navigate function check based off of Navigator run result.
+Added spell lookup to properly identify mining spell
+Added ismoving check to moveto in the hopes to mitigate the pathing spam
+REmoved loading of all zones, and instead added an "autocomplete" style search.
+Added remove button for removing avoid zones.
+
+
+Todo: 
+Add a check to see if they actualyl have the profession before attempting to gather nodes
+When attacked by an elite - run away.
+Ignore mobs when mounted - dont dismount to fight ever single thign
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Eclipse.Bots.GatheringLegion.EclipseGatheringLegion.<>c.<CreateLootingBehavior>b__46_3(Object r) in C:\Development\HonorbuddyNightly\Bots\GatheringLegion\GatheringLegion\GatheringLegion.cs:line 613
